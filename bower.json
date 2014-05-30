@@ -1,0 +1,20 @@
+{
+  "name": "synthbrew",
+  "version": "0.0.0",
+  "homepage": "https://github.com/13ruce1337/synthbrew",
+  "authors": [
+    "Trevor Cooper"
+  ],
+  "description": "A web based synthesizer application",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "oscillator",
+    "synthesizer",
+    "audio",
+    "synth"
+  ],
+  "license": "BSD 2-Clause",
+  "private": true
+}
