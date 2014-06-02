@@ -15,6 +15,20 @@
     "audio",
     "synth"
   ],
+  "ignore": [
+    "src",
+    ".bowerrc",
+    ".gitignore",
+    ".git",
+    "Gruntfile.js",
+    "bower.json",
+    "karma.conf.js",
+    "package.json",
+    "readme.md"
+  ],
+  "dependencies": {
+    "jquery": "2.1.1"
+  },
   "license": "BSD 2-Clause",
   "private": true
 }
