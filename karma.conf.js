@@ -1,7 +1,7 @@
 module.exports = function(config) {
   config.set({
     frameworks: ['jasmine'],
-    files: ['test/*.js'],
+    files: ['test/*.js','index.html'],
     autoWatch: true,
     browsers: [
       'Chrome',
