@@ -31,5 +31,8 @@
     "requirejs": "2.1.13"
   },
   "license": "BSD 2-Clause",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "qunit": "~1.14.0"
+  }
 }

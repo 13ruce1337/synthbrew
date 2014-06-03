@@ -1,5 +1,5 @@
 describe('test', function() {
-  var p = window.__html__['test/index.html'];
+  var p = window.__html__['test/test.html'];
   var page = p.toString();
   console.log(page);
   it('add some numbers', function() {

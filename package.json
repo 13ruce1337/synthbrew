@@ -23,7 +23,9 @@
   },
   "devDependencies": {
     "grunt": "~0.4.5",
-    "jquery": "^2.1.1"
+    "hogan.js": "^2.0.0",
+    "jquery": "^2.1.1",
+    "qunitjs": "^1.14.0"
   },
   "dependencies": {
     "requirejs": "^2.1.13"
