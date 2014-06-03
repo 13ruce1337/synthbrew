@@ -1,0 +1,32 @@
+* {
+  margin:0;
+  padding:0;
+}
+body, html {
+  background: #373737;
+}
+
+#synthbrew {
+  height:960px;
+  width:720px;
+}
+
+.toolbar {
+  float:left;
+  opacity:0.70;
+  width:250px;
+  height:100%;
+  background:#2B2B2B;
+}
+#toolbar-menu-btn {
+  position:absolute;
+  display:inline-block;
+  background:#019CDF;
+  height:75px;
+  width:30px;
+  left:250px;
+  border-radius:0 10px 10px 0;
+}
+.menu-btn:hover {
+  cursor:pointer;
+}

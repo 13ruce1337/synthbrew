@@ -16,11 +16,16 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
         files: [
-          '*'
+          __dirname + '*.js',
+          __dirname + '/src/libs/*.js',
+          __dirname + '/src/libs/*.css',
+          __dirname + '/src/libs/*.html',
+          __dirname + '/src/bin/*.js',
+          __dirname + '/src/scripts/*.js',
+          __dirname + '/test/*.js',
         ],
         tasks: [
-          'open',
-          'execute:testbuild'
+          'execute:testbuild',
         ]
       }
     },

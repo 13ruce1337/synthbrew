@@ -1,4 +1,8 @@
-define({
-  name: 'test',
-  age: 234
+define('synth.module', {
+  create: function(name, desc) {
+    return {
+      name: name,
+      description: desc
+    };
+  }
 });
