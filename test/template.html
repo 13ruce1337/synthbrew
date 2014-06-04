@@ -5,16 +5,20 @@
   <meta name="Synth Brew" content="Synthesizer web application"/>
   <meta name="keywords" content="synthesizer, synth, web synth, free web synth"/>
   <title>Synth Brew</title>
+  {{#csss}}
+    <link rel='stylesheet' type='test/css' href='{{css}}'/>
+  {{/csss}}
   <link rel='stylesheet' type='text/css' href='../src/vendor/qunit/qunit/qunit.css'/>
-  <link rel='stylesheet' type='test/css' href='../src/libs/app.css'/>
 </head>
 <body>
   <div id='qunit'></div>
   <div id='qunit-fixture'></div>
   {{{app}}}
   <script src='../src/vendor/qunit/qunit/qunit.js'></script>
+  {{#scripts}}
+    <script src='{{script}}'></script>
+  {{/scripts}}
+  <script data-main='../src/scripts/main' src='../src/vendor/requirejs/require.js'></script>
   <script src='../src/vendor/jquery/dist/jquery.js'></script>
   <script src='../test/load-test.js'></script>
-  <script src='../src/scripts/require.conf.js'></script>
-  <script data-main='../src/scripts/main' src='../src/vendor/requirejs/require.js'></script>
 </body>

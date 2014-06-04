@@ -1,6 +1,6 @@
 {
   "name": "synthbrew",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/13ruce1337/synthbrew",
   "authors": [
     "Trevor Cooper"
@@ -16,20 +16,19 @@
     "synth"
   ],
   "ignore": [
-    "src",
     ".bowerrc",
     ".gitignore",
     ".git",
     "Gruntfile.js",
     "bower.json",
-    "karma.conf.js",
     "package.json",
     "readme.md"
   ],
   "dependencies": {
     "jquery": "2.1.1",
     "requirejs": "2.1.13",
-    "jquery-ui": "~1.10.4"
+    "jquery-ui": "~1.10.4",
+    "ARC.jquery.corner": "~0.1.0"
   },
   "license": "BSD 2-Clause",
   "private": true,

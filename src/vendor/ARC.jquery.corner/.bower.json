@@ -1,0 +1,15 @@
+{
+  "name": "ARC.jquery.corner",
+  "homepage": "https://github.com/Eleeleth/corner",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "8622b7bf6cd494083c48e554975d56947ac5f7f7"
+  },
+  "_source": "git://github.com/Eleeleth/corner.git",
+  "_target": "~0.1.0",
+  "_originalSource": "ARC.jquery.corner",
+  "_direct": true
+}

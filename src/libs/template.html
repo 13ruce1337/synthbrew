@@ -5,9 +5,14 @@
   <meta name="Synth Brew" content="Synthesizer web application"/>
   <meta name="keywords" content="synthesizer, synth, web synth, free web synth"/>
   <title>Synth Brew</title>
+  {{#csss}}
+    <link rel='stylesheet' type='test/css' href='{{css}}'/>
+  {{/csss}}
 </head>
 <body>
   {{{app}}}
-  <script src='../src/scripts/require.conf.js'></script>
+  {{#scripts}}
+    <script src='{{script}}'></script>
+  {{/scripts}}
   <script data-main='../src/scripts/main' src='../src/vendor/requirejs/require.js'></script>
 </body>

@@ -1,6 +1,6 @@
 {
   "name": "synthbrew",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Web based synthesizer application.",
   "main": "index.js",
   "scripts": {
@@ -26,11 +26,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-execute": "^0.2.1",
     "grunt-open": "^0.2.3",
-    "hogan.js": "^2.0.0",
-    "jquery": "^2.1.1",
-    "qunitjs": "^1.14.0"
+    "hogan.js": "^2.0.0"
   },
-  "dependencies": {
-    "requirejs": "^2.1.13"
-  }
+  "dependencies": {}
 }

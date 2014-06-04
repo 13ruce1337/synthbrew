@@ -5,11 +5,17 @@ module.exports = (function() {
       synthbrew,
       partials;
   
-  encoding = 'utf8';
   partials = {
-    app: undefined
+    app: undefined,
+    scripts: [
+      {script: '../src/scripts/require.conf.js'},
+    ],
+    csss: [
+      {css: '../src/libs/app.css'}
+    ]
   };
   
+  encoding = 'utf8';
   function readfile(file, title, cb) {
     url = __dirname + file;
     fs.readFile(file, encoding, function(err, data) {
