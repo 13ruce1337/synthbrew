@@ -4,7 +4,6 @@ module.exports = function(grunt) {
     execute: {
       build: {
         src: [
-          'src/bin/compile.js'
         ]
       },
       testbuild: {
