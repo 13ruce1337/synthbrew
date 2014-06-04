@@ -27,7 +27,8 @@ require(['jquery','jqueryui', 'synth.module'], function($, undefined, synth) {
       }
     });
 
-  //tools append
+    //tools append
 
+    //piano roll
   });
 });

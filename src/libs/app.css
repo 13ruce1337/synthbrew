@@ -11,6 +11,22 @@ body, html {
   width:720px;
 }
 
+.vert-menu-btn {
+  position:absolute;
+  height:75px;
+  width:30px;
+  border-radius:0 10px 10px 0;
+}
+.horz-menu-btn {
+  position:absolute;
+  height:30px;
+  width:100px;
+  border-radius:10px 10px 0 0;
+}
+.menu-btn:hover {
+  cursor:pointer;
+}
+
 .toolbar {
   float:left;
   opacity:0.70;
@@ -19,14 +35,12 @@ body, html {
   background:#2B2B2B;
 }
 #toolbar-menu-btn {
-  position:absolute;
-  display:inline-block;
   background:#019CDF;
-  height:75px;
-  width:30px;
   left:250px;
-  border-radius:0 10px 10px 0;
 }
-.menu-btn:hover {
-  cursor:pointer;
+
+#piano-roll-btn {
+  bottom:0;
+  left:50%;
+  background:#BDBA9A;
 }
