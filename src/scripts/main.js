@@ -2,7 +2,7 @@ require([
   'jquery',
   'jqueryui',
   'jquerycorner',
-  'synth.module'
+  'gear.module'
 ], function($, synth) {
   $(function() {
     //menu button switch
@@ -57,6 +57,6 @@ require([
       }
     });
     //output
-    $('#output').corner('InvSteep br bl');
+    $('.output').corner('InvSteep br bl');
   });
 });

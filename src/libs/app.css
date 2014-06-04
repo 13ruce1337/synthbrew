@@ -26,6 +26,13 @@ body, html {
   cursor:pointer;
 }
 
+.output {
+  position:absolute;
+  background:#410507;
+  height:20px;
+  width:60px;
+}
+
 /* Application Specific */
 #synthbrew {
   height:100%;
@@ -59,10 +66,9 @@ body, html {
   background:#BDBA9A;
 }
 
-#output {
-  position:relative;
-  left:80%;
-  background:#410507;
-  height:20px;
-  width:80px;
+#outleft {
+  left:920px;
+}
+#outright {
+  left:1000px;
 }
