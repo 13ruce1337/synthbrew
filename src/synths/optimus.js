@@ -1,4 +1,4 @@
-var optimus = { 
+define({ 
   name: 'Optimus',
   ins: 0,
   outs: 2,
@@ -6,4 +6,4 @@ var optimus = {
   },
   waves: undefined,
   description: undefined
-}
+});

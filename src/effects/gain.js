@@ -1,4 +1,4 @@
-var gain = {
+define({
   name: 'Gain',
   ins: 2,
   outs: 2,
@@ -6,4 +6,4 @@ var gain = {
   controls: function() {
   },
   description: undefined
-}
+});

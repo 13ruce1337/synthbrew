@@ -2,7 +2,8 @@ require([
   'jquery',
   'jqueryui',
   'jquerycorner',
-  'gear.module'
+  'gear.module',
+  'gear.list'
 ], function($, synth) {
   $(function() {
     //menu button switch
